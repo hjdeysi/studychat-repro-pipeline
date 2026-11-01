@@ -1,0 +1,21 @@
+{
+  "raw_rows": 16851,
+  "valid_rows": 16850,
+  "dropped": {
+    "empty_prompt": 1
+  },
+  "users": 203,
+  "chats": 2214,
+  "rows_by_semester": {
+    "f24": 6863,
+    "s25": 9987
+  },
+  "users_by_semester": {
+    "f24": 84,
+    "s25": 119
+  },
+  "users_in_both_semesters": 0,
+  "prompt_chars_median": 115,
+  "prompt_chars_max": 503572,
+  "prompts_longer_than_max_chars": 428
+}

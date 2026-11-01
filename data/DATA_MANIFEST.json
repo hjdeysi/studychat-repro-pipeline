@@ -1,0 +1,37 @@
+{
+  "raw": {
+    "file": "data/raw/data.jsonl",
+    "source": "https://huggingface.co/datasets/wmcnicho/StudyChat",
+    "revision": "24d7987d9fbb30d9da12acc53455a10f1cdd2d7f",
+    "license": "CC BY 4.0",
+    "citation": "McNichols, H., Ikram, F., & Lan, A. (2026). The StudyChat Dataset: Analyzing Student Dialogues With ChatGPT in an Artificial Intelligence Course. In Proceedings of LAK26, 53-63.",
+    "size_bytes": 626248888,
+    "sha256": "67927f73327639904c417c2f6e6200e11427920a8435b39cb7c87b5c6601e130",
+    "committed_to_git": false,
+    "verified_utc": "2026-11-01"
+  },
+  "interim": {
+    "file": "data/interim/studychat_turns.csv.gz",
+    "derived_from": "raw",
+    "rows": 16850,
+    "sha256": "0e0c35f2735ae494515d9c37d9d4c38245ba81980e961091caa8f5ffb6663feb",
+    "committed_to_git": false
+  },
+  "processed": {
+    "file": "data/processed/studychat_prompts.csv.gz",
+    "derived_from": "interim",
+    "rows": 16850,
+    "rows_by_split": {
+      "test": 9987,
+      "train": 6863
+    },
+    "delegation_rate_by_split": {
+      "test": 0.2941,
+      "train": 0.2648
+    },
+    "test_rows_seen_in_train": 311,
+    "target_definition": "y_delegation = 1 if top-level llm_label in ['editing_request', 'writing_request'], else 0",
+    "sha256": "9c3eaac5bb539654c4188a8a1bda0867ef246f9f25a60de3587c3821a8fe80db",
+    "committed_to_git": true
+  }
+}
