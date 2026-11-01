@@ -7,8 +7,7 @@
     "citation": "McNichols, H., Ikram, F., & Lan, A. (2026). The StudyChat Dataset: Analyzing Student Dialogues With ChatGPT in an Artificial Intelligence Course. In Proceedings of LAK26, 53-63.",
     "size_bytes": 626248888,
     "sha256": "67927f73327639904c417c2f6e6200e11427920a8435b39cb7c87b5c6601e130",
-    "committed_to_git": false,
-    "verified_utc": "2026-11-01"
+    "committed_to_git": false
   },
   "interim": {
     "file": "data/interim/studychat_turns.csv.gz",

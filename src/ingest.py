@@ -8,7 +8,6 @@ values pinned in src/config.py. Any mismatch stops the pipeline.
 """
 import argparse
 import shutil
-from datetime import datetime, timezone
 from pathlib import Path
 
 from src import config
@@ -56,7 +55,6 @@ def main(local: str | None = None) -> Path:
         "size_bytes": config.RAW_SIZE,
         "sha256": digest,
         "committed_to_git": False,
-        "verified_utc": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
     })
     print(f"[ingest] OK ({origin}) sha256={digest[:12]}...")
     return target
