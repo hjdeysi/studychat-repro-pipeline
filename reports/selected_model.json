@@ -1,0 +1,38 @@
+{
+  "rule": "best cross-validation macro-F1 on the training cohort; test used once",
+  "per_seed": [
+    {
+      "seed": 0,
+      "model": "tfidf_logreg",
+      "best_params": "{\"clf__C\": 10.0}",
+      "test_f1_macro": 0.7623
+    },
+    {
+      "seed": 1,
+      "model": "tfidf_logreg",
+      "best_params": "{\"clf__C\": 100.0}",
+      "test_f1_macro": 0.7583
+    },
+    {
+      "seed": 2,
+      "model": "tfidf_logreg",
+      "best_params": "{\"clf__C\": 100.0}",
+      "test_f1_macro": 0.7583
+    },
+    {
+      "seed": 3,
+      "model": "tfidf_logreg",
+      "best_params": "{\"clf__C\": 10.0}",
+      "test_f1_macro": 0.7623
+    },
+    {
+      "seed": 42,
+      "model": "tfidf_logreg",
+      "best_params": "{\"clf__C\": 10.0}",
+      "test_f1_macro": 0.7623
+    }
+  ],
+  "test_f1_macro_mean": 0.7607,
+  "test_f1_macro_sd": 0.0022,
+  "git_commit": "238a943"
+}

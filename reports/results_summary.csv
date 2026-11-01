@@ -1,0 +1,4 @@
+model,cv_f1_macro_mean,cv_f1_macro_std,test_f1_macro_mean,test_f1_macro_std,test_balanced_accuracy_mean,test_balanced_accuracy_std,test_precision_delegation_mean,test_precision_delegation_std,test_recall_delegation_mean,test_recall_delegation_std,test_roc_auc_mean,test_roc_auc_std,test_unseen_f1_macro_mean,test_unseen_f1_macro_std
+majority_baseline,0.4223,0.0007,0.4138,0.0,0.5,0.0,0.0,0.0,0.0,0.0,0.5,0.0,0.415,0.0
+tfidf_complementnb,0.7599,0.0016,0.7059,0.0,0.694,0.0,0.6465,0.0,0.5026,0.0,0.7636,0.0,0.7011,0.0
+tfidf_logreg,0.8062,0.0034,0.7607,0.0022,0.7519,0.0039,0.6991,0.0052,0.6138,0.0127,0.8572,0.0061,0.7577,0.0027
