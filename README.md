@@ -92,7 +92,7 @@ Seeds change the cross-validation folds and therefore the selected hyper-paramet
 
 ## Stranger test · Prueba del extraño
 
-Before submission the repository was cloned into an empty folder, a new virtual environment was created from `requirements.txt` only, and the pipeline was run from the committed processed table. The numbers matched the table above exactly.
+Before submission the repository was cloned into an empty folder and a new virtual environment was created from `requirements.txt` only. Both paths were run: (A) rebuilding every zone from the raw file and (B) starting from the committed processed table. In both, `DATA_MANIFEST.json`, `results_summary.csv` and `results_by_seed.csv` were byte-identical to the committed versions; the only change was the `git_commit` field in `selected_model.json`, which records the commit that produced the run.
 
 ## Limitations · Limitaciones
 
