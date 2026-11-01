@@ -1,0 +1,12 @@
+# data lake: raw and interim zones are regenerable and too large for Git
+data/raw/*
+!data/raw/README.md
+data/interim/*
+!data/interim/README.md
+# experiment tracking (local)
+mlflow.db
+mlruns/
+# environment
+.venv/
+__pycache__/
+.ipynb_checkpoints/
